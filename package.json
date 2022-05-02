@@ -1,6 +1,6 @@
 {
   "name": "@anhnguyen3001/pkg",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -10,9 +10,11 @@
     "build": "rimraf ./dist && rollup -c"
   },
   "dependencies": {
+    "axios": "^0.26.0"
+  },
+  "devDependencies": {
     "@rollup/plugin-node-resolve": "^13.2.1",
     "@types/axios": "^0.14.0",
-    "axios": "^0.26.0",
     "path": "^0.12.7",
     "rimraf": "^3.0.2",
     "rollup": "^2.71.1",
