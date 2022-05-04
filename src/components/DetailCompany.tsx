@@ -1,5 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
+import styled from "@emotion/styled";
 
 export const DetailCompany: React.FC = () => {
-  return <div>Detail Company</div>;
+  return <Wrapper>Detail Company</Wrapper>;
 };
+
+const Wrapper = styled.div`
+  background-color: red;
+  padding: 16px;
+`;
